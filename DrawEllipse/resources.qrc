@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/plugins/DrawEllipse">
+    <file>icon.png</file>
+    <file>1.PNG</file>
+    <file>2.PNG</file>
+    <file>3.PNG</file>
+  </qresource>
+</RCC>

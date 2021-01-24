@@ -1,0 +1,30 @@
+﻿# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=DrawEllipse
+
+description=The tool for drawing ellipses
+description[pl]=Narzędzie służące do rysowania elips
+
+about=Wtyczka oprogramowuje działanie narzędzia do rysowania elips na mapie w środowisku QGISa poprzez podanie odpowiednich parametrów w oknie wtyczki.
+
+ Elipsa definiowana będzie na kilka sposobów:
+
+ - współrzędne ogniskowych elipsy oraz końca krótszej półosi;
+ - główne parametry tj. długości półosi, współrzędne środka elipsy oraz kąt skręcenia;
+ - ekscentryczność wraz z dłuższą półosią, środkiem i kątem skręcenia;
+
+version=1.0
+qgisMinimumVersion=3.0
+
+# tags are comma separated with spaces allowed
+tags=geometry, vector, point, ellipse, processing, coordinates, eccenctricity
+icon=icon.png
+
+# Authors contact information:
+author=Adrian&Filip
+email=adriannowak000@gmail.com / filip.galdyn.fg@gmail.com
+repository=URL
